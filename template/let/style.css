@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin: 50px auto;
+    background-color: aquamarine;
+    cursor: pointer;
+    width: 100px;
+    height: 90px;
+}
+.burger{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    display: block;
+    background-color: green;
+    transition: ease-in-out .3s;
+}
+
+.burg_top{
+    opacity: 0;
+    z-index: 3;
+    transition: ease-in-out .3s;
+}
+.burg_center{
+    transform: rotateZ(45deg);
+    top: 2%;
+    left: 2%;
+    position: relative;
+    transition: ease-in-out .3s;
+}
+.burg_bottom{
+    top: -28%;
+    left: 0%;
+    transform: rotateZ(-45deg);
+    position: relative;
+    transition: ease-in-out .3s;
+}
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/bd/a5/be/bda5be61177acdb5fd46c3219f8b81a0.jpg) no-repeat, rgba(0,54,24,.5);
+    background-size: 100vh;
+}
